@@ -1,0 +1,64 @@
+Dependencies for Project 'Project', Target 'Project': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (..\src\startup.s)(0x69F018FA)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Project-IC:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./startup.o)
+F (..\src\tm4c123gh6pm.h)(0x69F018FA)()
+F (..\src\drivers\wtimer.c)(0x69F29D44)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Project-IC:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./wtimer.o -MMD)
+I (..\src\drivers\wtimer.h)(0x6A021EC5)
+I (..\src\tm4c123gh6pm.h)(0x69F018FA)
+F (..\src\drivers\Servo.c)(0x6A021DF9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Project-IC:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./servo.o -MMD)
+I (..\src\drivers\Servo.h)(0x6A021E07)
+I (..\src\drivers\wtimer.h)(0x6A021EC5)
+I (..\src\tm4c123gh6pm.h)(0x69F018FA)
+F (..\src\drivers\Servo.h)(0x6A021E07)()
+F (..\src\drivers\UART0.c)(0x6A04ECDF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Project-IC:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./uart0.o -MMD)
+I (..\src\drivers\UART0.h)(0x6A04E7A5)
+I (..\src\tm4c123gh6pm.h)(0x69F018FA)
+I (..\src\drivers\MPU6050.h)(0x6A04E81D)
+I (..\src\drivers\I2C3.h)(0x6A04E850)
+I (..\src\drivers\wtimer.h)(0x6A021EC5)
+I (..\src\drivers\TCS34727.h)(0x6A04E7F3)
+F (..\src\drivers\UART0.h)(0x6A04E7A5)()
+F (..\src\drivers\ButtonLED.c)(0x6A021D2F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Project-IC:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./buttonled.o -MMD)
+I (..\src\drivers\ButtonLED.h)(0x6A021D44)
+I (..\src\tm4c123gh6pm.h)(0x69F018FA)
+F (..\src\drivers\ButtonLED.h)(0x6A021D44)()
+F (..\src\drivers\wtimer.h)(0x6A021EC5)()
+F (..\src\drivers\MPU6050.c)(0x6A04F3C7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Project-IC:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./mpu6050.o -MMD)
+I (..\src\drivers\MPU6050.h)(0x6A04E81D)
+I (..\src\drivers\I2C3.h)(0x6A04E850)
+I (..\src\tm4c123gh6pm.h)(0x69F018FA)
+I (..\src\drivers\wtimer.h)(0x6A021EC5)
+I (..\src\drivers\UART0.h)(0x6A04E7A5)
+I (..\src\drivers\LCD.h)(0x6A021DA2)
+F (..\src\drivers\MPU6050.h)(0x6A04E81D)()
+F (..\src\drivers\I2C3.c)(0x6A04E860)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Project-IC:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./i2c3.o -MMD)
+I (..\src\drivers\I2C3.h)(0x6A04E850)
+I (..\src\tm4c123gh6pm.h)(0x69F018FA)
+I (..\src\drivers\wtimer.h)(0x6A021EC5)
+F (..\src\drivers\I2C3.h)(0x6A04E850)()
+F (..\src\drivers\TCS34727.c)(0x6A04E8A2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Project-IC:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./tcs34727.o -MMD)
+I (..\src\drivers\TCS34727.h)(0x6A04E7F3)
+I (..\src\drivers\wtimer.h)(0x6A021EC5)
+I (..\src\tm4c123gh6pm.h)(0x69F018FA)
+I (..\src\drivers\I2C3.h)(0x6A04E850)
+I (..\src\drivers\UART0.h)(0x6A04E7A5)
+I (..\src\drivers\LCD.h)(0x6A021DA2)
+I (..\src\drivers\ButtonLED.h)(0x6A021D44)
+F (..\src\drivers\TCS34727.h)(0x6A04E7F3)()
+F (..\src\main.c)(0x6A050C08)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Project-IC:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./main.o -MMD)
+I (..\src\drivers\ButtonLED.h)(0x6A021D44)
+I (..\src\tm4c123gh6pm.h)(0x69F018FA)
+I (..\src\drivers\wtimer.h)(0x6A021EC5)
+I (..\src\drivers\UART0.h)(0x6A04E7A5)
+I (..\src\drivers\I2C3.h)(0x6A04E850)
+I (..\src\drivers\TCS34727.h)(0x6A04E7F3)
+I (..\src\drivers\MPU6050.h)(0x6A04E81D)
+I (..\src\drivers\LCD.h)(0x6A021DA2)
+I (..\src\drivers\Servo.h)(0x6A021E07)
+F (..\src\drivers\LCD.c)(0x6A021D95)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Project-IC:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./lcd.o -MMD)
+I (..\src\drivers\LCD.h)(0x6A021DA2)
+I (..\src\tm4c123gh6pm.h)(0x69F018FA)
+I (..\src\drivers\wtimer.h)(0x6A021EC5)
+I (..\src\drivers\I2C3.h)(0x6A04E850)
+I (..\src\drivers\UART0.h)(0x6A04E7A5)
+F (..\src\drivers\LCD.h)(0x6A021DA2)()
