@@ -4,11 +4,11 @@
 
 Terminal Output When Flat:
 
-<img width="356" height="109" alt="image" src="https://github.com/user-attachments/assets/a6876047-19a1-4b3f-b0ec-574a60b170cc" />
+<img width="258" height="79" alt="image" src="https://github.com/user-attachments/assets/033dc9aa-fbc9-4b64-befa-f492bcb22cd8" />
 
 ### I2C Evidence
 
-<img width="275" height="79" alt="image" src="https://github.com/user-attachments/assets/c8e68b7f-eb27-4feb-afb4-f9637dfecd90" />
+<img width="204" height="60" alt="image" src="https://github.com/user-attachments/assets/9debea77-29c1-4c06-8c2e-a4afc139a0b9" />
 
 ### LCD Evidence
 
@@ -16,11 +16,11 @@ https://youtube.com/shorts/MndHsKLHWo8?si=lkyj2-fk9eYbKoJr
 
 ### TCS34725 Evidence
 
-<img width="150" height="71" alt="image" src="https://github.com/user-attachments/assets/3927290e-e0bb-413b-94c4-7d352865149e" />
-<img width="285" height="65" alt="image" src="https://github.com/user-attachments/assets/f7a1a935-f5f9-4a9f-9a85-02826936299f" />
-<img width="301" height="73" alt="image" src="https://github.com/user-attachments/assets/0f32ac4f-aa6f-400f-a289-09d6bd690aa2" />
+<img width="220" height="101" alt="image" src="https://github.com/user-attachments/assets/8fcc47a9-07a4-4380-99e7-4a3fb6bcc324" />
 
-# Check Point 1 Evidence
+<img width="212" height="49" alt="image" src="https://github.com/user-attachments/assets/8b54e78b-b2cd-4a2a-bdf7-d4926aa7a702" />
+
+<img width="215" height="52" alt="image" src="https://github.com/user-attachments/assets/d929d73b-922f-4ac6-ae8f-b73646f86d09" />
 
 ### 1. ButtonLED Test Evidence
 
@@ -32,15 +32,15 @@ https://youtube.com/shorts/-knv1GzIszo?si=ufCZtXyXzCGzBtU0
 ### 2. WTIMER Test (1ms, 100ms, 500ms)
    **1ms Delay**
    
-   <img width="302" height="212" alt="image" src="https://github.com/user-attachments/assets/cb46c939-dd2e-44b4-9056-830e54309c3b" />
+   <img width="446" height="311" alt="image" src="https://github.com/user-attachments/assets/36145225-52c7-4afc-afcd-3b0320e5552d" />
 
    **100ms Delay**
 
-   <img width="326" height="302" alt="image" src="https://github.com/user-attachments/assets/22f85848-5369-4e0b-8432-3a7a094be3ad" />
+   <img width="485" height="403" alt="image" src="https://github.com/user-attachments/assets/b99f85c0-d2fc-4f87-9489-793979be0b1a" />
 
    **500ms Delay**
 
-   <img width="342" height="237" alt="image" src="https://github.com/user-attachments/assets/59cd6fd0-5d3f-44ec-876d-4246c2c8ac19" />
+   <img width="490" height="328" alt="image" src="https://github.com/user-attachments/assets/b5130162-8459-4ce1-b15f-8b80ddefc62f" />
 
 ### 3. UART0 Test
 
